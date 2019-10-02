@@ -10,7 +10,8 @@ namespace FFVIII_LAUNCHER
 
         private static void launch_FF8Launcher()
         {
-            string str = "FFVIII.exe"; // per themadpatter launcher worked great for the other FF titles too that had the absurd 6MB launcher for III, IV, IVA.
+            string str = "FFVIII.exe"; // per themadpatter launcher worked great for the other FF titles too that had the absurd
+            //6MB launcher for III, IV, IVA.
             // so you can change this string and make another game run.
             ProcessStartInfo startInfo = new ProcessStartInfo(str)
             {
